@@ -1,13 +1,5 @@
-import React, { ReactElement } from 'react'
+import React from "react";
 
-interface Props {
-    
-}
-
-export default function Hello({}: Props): ReactElement {
-    return (
-        <div>
-            Hello world
-        </div>
-    )
+export default function Hello() {
+  return <div>Hello world</div>;
 }
